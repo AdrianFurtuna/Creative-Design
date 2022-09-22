@@ -61,4 +61,59 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.navbar {
+    position: relative;
+    z-index: 20;
+    top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-link {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: white;
+    width: 1.5rem;
+    word-wrap: break-word; /* For horizontal letter design */
+    text-align: center;
+    transition: all .5s; /* Helps with the overall transition to be faster */
+}
+
+.navbar-link:hover {
+    width: 15rem;
+    background-color: rgb(255, 255, 255, .2);
+    transition: all 2.5s;
+}
+
+.section-1-heading {
+    font-size: 8rem;
+    font-family: "Monoton", cursive;
+    position: absolute;
+    top: 18vw;
+    left: 50%;
+    transform: translateX(-50%); /* To center the text */
+    text-shadow: .3rem .3rem .3rem #888;
+    color: white;
+    background-color: white;
+    width: 85rem;
+    text-align: center;
+    padding: .8rem 1.6rem;
+    border-radius: .8rem;
+    opacity: .9;
+}
+
+.logo {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo i {
+    font-size: 15rem;
+    color: rgb(50, 231, 255, 0.8);
+    text-shadow: .1rem .1rem .2rem #ddd, -.1rem -.1rem .2rem #ddd;
+}
 /* End of section 1 */
